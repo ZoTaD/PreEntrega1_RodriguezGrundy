@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #323232;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50px; /* Ajusta la posición vertical del menú */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.titleContainer {
+  margin-bottom: 30px; /* Ajusta el espacio entre el título y los elementos del menú */
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Ajusta el espacio entre los elementos del menú y la galería */
+}
+
+.galeriaContainer {
+  display: flex;
+  justify-content: center;
+}
+
+
+.navMenu h1 {
+  margin: 50px 0; /* Ajusta el espacio entre el título y los elementos del menú */
+}
+
+/* Agrega espacio entre el menú y la galería */
+.galeria {
+  margin-top: 50px;
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 20px; /* Ajusta el espacio entre los elementos */
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translateX(30px);
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover ~ .dot {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+  
