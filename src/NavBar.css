@@ -1,0 +1,12 @@
+.galeriaContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas con el mismo ancho */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+  
+  .productoItem {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  

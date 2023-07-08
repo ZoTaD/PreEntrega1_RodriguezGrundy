@@ -1,0 +1,35 @@
+.galeriaContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .productoItem {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cartContainer {
+    display: flex;
+    align-items: center;
+    float: right; 
+    margin-top: -45px; 
+  }
+  
+  .cartIcon {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
+  .cartCount {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+  
+
+  
+  
